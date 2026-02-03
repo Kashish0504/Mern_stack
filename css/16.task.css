@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 50px;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Button */
+.dropbtn {
+  background: linear-gradient(#f5f5f5, #d9d9d9);
+  color: #333;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Arrow */
+.arrow {
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  background: #fff;
+  border: 3px solid #4caf50;
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Arrow pointer */
+.dropdown-content::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #4caf50;
+}
+
+/* Menu items */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid #e6e6e6;
+  transition: background 0.3s;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+  background: #e8f5e9;
+}
+
+/* Active item */
+.dropdown-content a.active {
+  color: #4caf50;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

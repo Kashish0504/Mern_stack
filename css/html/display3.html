@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box{
+            border: 2px solid red;
+            text-align: center;
+        }
+        .container {
+            display:flex;
+            border:2px solid forestgreen;
+
+        }
+        .one{
+            background-color:pink;
+            flex-grow: 1;
+
+        }
+        .two{
+            background-color: aqua;
+            flex-grow: 2;
+
+        }
+        .three{
+            background-color: pink;
+            flex-grow: 1;
+        }
+        .box_2{
+            border: 2px soild red;
+            text-align: center;
+            width: 600px;
+        }
+        .container_2{
+            display: flex;
+            border:2px solid forestgreen;
+            margin:1rem 0;
+            padding: 1rem 0.5em;
+
+        }
+        .one_2{
+              background-color: pink;
+              flex-shrink: 1;
+
+        }
+        .two_2{
+            background-color: aqua;
+            width: 200px;
+            flex-shrink: 1;
+        }
+        .three_2{
+            background-color: pink;
+            flex-shrink: 1;
+        }
+        .box_3{
+            border:2px solid red;
+            text-align: center;
+            width: 600px;
+        }
+
+        .container_3{
+            display: flex;
+            border: 2px solid forestgreen;
+            margin: 1rem 0;
+            padding: 1rem 0.5em;
+
+        }
+        .one_3{
+            background-color: pink;
+            flex-grow: 4;
+            flex-basis: 100px;
+
+        }
+        .two_3{
+            background-color: aqua;
+            flex-basis: 200px ;
+
+        }
+        .three_3{
+            background:pink;
+            flex-basis: 100px;
+        }
+        
+        
+    </style>
+    
+</head>
+
+<body><h1>hello</h1>
+
+    <div class="container">
+        <div class="box one">one</div>
+        <div class="box two">two</div>
+        <div class="box three">three</div>
+
+    </div>
+    <div class="container_2">
+        <div class="box_2 one_2">one</div>
+        <div class="box_2 two_2">two</div>
+        <div class="box_2 three_2">three</div>
+    </div>
+     <div class="container_3">
+        <div class="box_3 one_3">one</div>
+        <div class="box_3 two_3">two</div>
+        <div class="box_3 three_3">three</div>
+    </div>
+    
+</body>
+</html>

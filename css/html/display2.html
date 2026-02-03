@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizind: border-box;
+
+        }
+
+        body>*{
+            background-color: tomato;
+            border:3px solid #000;
+
+        }
+
+        header+main{
+            display: flex;
+            height: 15px;
+            padding: 5px;
+            gap:5px;
+
+        }
+
+        main+main{
+            height: 7em;
+
+        }
+        footer {
+            height: 4em;
+
+        }
+
+        /*.sub_child_1, */
+        .sec-1 {
+            background-color: #000;
+            width: 100%;
+
+        }
+
+        .sec-2{
+            display:flex;
+            gap: 5px;
+            flex-direction: column;
+
+        }
+
+
+        .sub_child_2 {
+               background-color: wheat;
+               height: 100%;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <header></header>
+    <main>
+        <section class="sec-1"></section>
+        <section class="sec-2">
+            <section class="sub_child_1"></sectionclass>
+            <section class="sub_child_2"></section>
+        </section>
+    </main>
+    <main></main>
+    <footer></footer>
+</body>
+</html>

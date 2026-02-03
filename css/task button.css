@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* COMMON */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+/* ---------- LIGHT ---------- */
+.pagination.light {
+  background: #eee;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.pagination.light button {
+  background: #fff;
+}
+
+.pagination.light button:hover {
+  background: #d9d9d9;
+  transform: translateY(-2px);
+}
+
+
+
+.circle {
+  border-radius: 50%;
+}
+
+/* ---------- GRAY ---------- */
+.pagination.gray button {
+  background: #7a8a97;
+  color: white;
+}
+
+.pagination.gray button:hover {
+  background: #5f6e7a;
+  transform: scale(1.1);
+}
+
+
+.pagination.gray .red:hover {
+  background: #a81f1f;
+}
+
+/* ---------- BLUE ---------- */
+.pagination.blue {
+  background: linear-gradient(#7ec9ff, #3b8dd4);
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.pagination.blue button {
+  background: white;
+}
+
+.pagination.blue button:hover {
+  background: #e0f2ff;
+  transform: translateY(-2px);
+}
+
+
+
+.info {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dots {
+  padding: 0 5px;
+  font-weight: bold;
+}

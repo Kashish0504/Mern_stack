@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e0e0e0;
+}
+
+/* OUTER BACKGROUND */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 6px;
+
+  background: #4fc3f7;   /* background like image */
+  padding: 6px;          /* space around boxes */
+  width: 620px;
+}
+
+/* PINK BOXES */
+.box {
+  background: #f06292;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BOX 3 SPANS */
+.wide {
+  grid-column: 1 / span 3;
+}
+
+/* BLUE BOX */
+.blue {
+  grid-column: 3 / span 2;
+  background: #039be5;
+}
