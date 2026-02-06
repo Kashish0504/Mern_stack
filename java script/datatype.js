@@ -21,4 +21,4 @@ const val = 3;
 
 val = 'gupta';
 
-console.log(val);
+console.log(val);  
