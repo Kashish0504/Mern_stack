@@ -20,3 +20,6 @@ obj.age = 20;
 delete obj.age;
 
 console.log('~obj:',obj);
+
+
+
