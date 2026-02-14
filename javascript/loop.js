@@ -73,15 +73,16 @@ let sum = 0
  for (let i = 1;i<=10;i++){
     console.log(`3x ${i}=${3 * i}`)
  }
- // 10. print factorial of given number
- let num = +Process.argv[2];;
- let fact=1
- for (i = 1; i<= num; i++) {
+//  // 10. print factorial of given number
+  let num = +Process.argv[2];;
+  let fact=1
+  for (i = 1; i<= num; i++) {
     fact=fact*i;
 
 
- }
- console.log(fact)
+  }
+  console.log(fact)
+// 10 answer is wrong
 
 
 
