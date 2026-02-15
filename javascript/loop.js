@@ -99,7 +99,7 @@ let sum = 0
    //code
 
 
-   console.log{start};
+   console.log,{start};
 
    //increments
    start++;
