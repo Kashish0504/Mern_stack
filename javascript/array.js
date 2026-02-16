@@ -32,18 +32,13 @@
 
 
 
- let numbers = [1, 2, 3, 4, 5, 6 , 7, 8, 9 , 10];
+//  let numbers = [1, 2, 3, 4, 5, 6 , 7, 8, 9 , 10];
 
 
- let Numbers = numbers.filter(num => num % 1 === 0);
+//  let Numbers = numbers.filter(num => num % 1 === 0);
 
 
-let squaredNumbers = Numbers.map(num => num * num);
+// let squaredNumbers = Numbers.map(num => num * num);
 
-console.log(squaredNumbers);
-
-
-
-
-
+// console.log(squaredNumbers);
 
