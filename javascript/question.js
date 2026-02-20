@@ -495,7 +495,7 @@ while (temp > 0) {
 console.log("10. Smallest Digit:", smallest);
 */
 
-
+/*
 console.log("\n===== ADVANCED PRACTICE =====\n");
 
 
@@ -612,3 +612,5 @@ for (let i = 0; i < rows; i++) {
   }
   console.log(row);
 }
+
+*/
