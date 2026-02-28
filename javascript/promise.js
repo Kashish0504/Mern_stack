@@ -61,7 +61,7 @@ timeOut_1();
 console.log('E');
 
 
-
+/*
 
 
 function naam() {
@@ -72,4 +72,4 @@ function naam() {
     };
 }
 
-console.log('~ naam(:', naam()());
+console.log('~ naam(:', naam()());  */
