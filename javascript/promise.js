@@ -55,13 +55,12 @@ const timeOut_1 = () => {
     }, 3000);
     console.log('C');
 };
-
+/*
 console.log('D');
 timeOut_1();
 console.log('E');
 
 
-/*
 
 
 function naam() {
