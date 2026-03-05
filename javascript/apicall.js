@@ -6,7 +6,8 @@ const Apicall = async () => {
     .then((res) => res.jaan()) // readablestream -> parse -> objects
     .then ((res) => console.log(res))
     .catch((err) => console.log(err)); */
-/*
+
+    
     try {
         let res = await fetch(base_Api);
         let value = await res . jaan();
@@ -16,4 +17,4 @@ const Apicall = async () => {
         console.log('~error:', error);
     }
 };
-Apicall();  */
+Apicall();  
