@@ -1,4 +1,3 @@
-/*
 
 let n1 = 3 
 let n2 = 4
@@ -30,7 +29,7 @@ let num2 = 8
 let flag =false;
 console.log('~flag:',!flag);
 
-let compaire = num1 */
+let compaire = num1 
 
 
 
