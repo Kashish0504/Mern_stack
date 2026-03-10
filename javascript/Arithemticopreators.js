@@ -22,8 +22,8 @@ let num2  = "3";
 console.log(' ~ num2:typeof num2');
 
 
-let num1 = 6
-let num2 = 8
+let num3 = 6
+let num4 = 8
 
 
 let flag =false;

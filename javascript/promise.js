@@ -28,7 +28,7 @@
 
 
 //set timeout
-
+/*
 console.log('A');
 const timeout = () =>{
     console.log('B');
@@ -72,4 +72,4 @@ function naam() {
 }
 
 console.log('~ naam(:', naam()());  
-
+*/
