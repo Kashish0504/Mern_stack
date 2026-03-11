@@ -162,7 +162,7 @@ const ansofArr = arr1.reduce(something,0);
 console.log(ansofArr);
 
 // foreach
-
+/*
 
  let quest_2 = ["mango", "apple", "kiwi", "orange", "guava", "lichi", 
     "pineapple", "banana", "banana", "banana", 
@@ -180,5 +180,5 @@ const ans44 = arr1.forEach((el )=> {
         console.log(`this is odd number ${el}`)
     }
 });
-
+*/
 
