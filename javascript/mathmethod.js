@@ -1,4 +1,4 @@
-console.log(Math.pow(2,4));
+/*console.log(Math.pow(2,4));
 console.log(2 ** 4);
 
 let num1 ='10';
@@ -22,4 +22,33 @@ console.log('this is round',Math.round(4.7));
 
 console.log(Math.fround(5.777));
 
+*/
 
+const arr2 = ['mehfooz',
+    'kashish',
+    'renee',
+    'sneha',
+    'suraj',
+    'shivam',
+    'abhishek',
+     'kashish',
+    'renee',
+    'sneha',
+    'suraj',
+    'shivam',
+    'abhishek',
+     'kashish',
+    'renee',
+    'sneha',
+    'suraj',
+    'shivam',
+    'abhishek',
+];
+let map = {};
+
+for (let items of arr2) {
+    if (map[ items]) {
+        map[items] = [items] + 1;
+        
+    }
+}
