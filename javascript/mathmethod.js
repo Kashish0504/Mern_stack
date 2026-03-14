@@ -44,6 +44,7 @@ const arr2 = ['mehfooz',
     'shivam',
     'abhishek',
 ];
+/*
 let map = {};
 
 for (let items of arr2) {
@@ -52,3 +53,4 @@ for (let items of arr2) {
         
     }
 }
+*/
