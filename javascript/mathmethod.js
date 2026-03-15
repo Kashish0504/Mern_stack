@@ -23,7 +23,7 @@ console.log('this is round',Math.round(4.7));
 console.log(Math.fround(5.777));
 
 */
-
+/*
 const arr2 = ['mehfooz',
     'kashish',
     'renee',
