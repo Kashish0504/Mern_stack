@@ -24,4 +24,9 @@ async function getdata() {
         console.log('~ error:', error);
     }
 }
-getdata();
+
+
+
+
+
+
