@@ -73,3 +73,34 @@ function naam() {
 
 console.log('~ naam(:', naam()());  
 */
+
+
+
+let icecream = new Promise((res , rej) => {
+    let flag = false;
+    if (flag) {
+        res('get');
+    }else {
+        rej('not found');
+
+    }
+});
+
+
+icecream
+    .then((res) => console.log('res:-->',res))
+    .catch((err) =>console.log('err: -->', err))
+    .finally(() =>console.log('done'));
+
+    /*
+    promise
+       all
+       allsettled
+       */
+
+
+
+
+
+
+       
