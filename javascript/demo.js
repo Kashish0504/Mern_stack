@@ -1,4 +1,4 @@
-/*
+
 
 
 let num = +Process.argv[2];;
@@ -11,4 +11,4 @@ let num = +Process.argv[2];;
  console.log(fact)
 
 
- */
+ 
