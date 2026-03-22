@@ -1,3 +1,6 @@
+/*
+
+
 let num = +Process.argv[2];;
  let fact=1
  for (i = 1; i<= num; i++) {
@@ -6,3 +9,6 @@ let num = +Process.argv[2];;
 
  }
  console.log(fact)
+
+
+ */
