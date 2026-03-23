@@ -10,5 +10,7 @@ let num = +Process.argv[2];;
  }
  console.log(fact)
 
+ 
+
 
  
