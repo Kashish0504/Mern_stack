@@ -1,14 +1,14 @@
 
 
 
-let num = +Process.argv[2];;
- let fact=1
- for (i = 1; i<= num; i++) {
-    fact=fact*i;
+// let num = +Process.argv[2];;
+//  let fact=1
+//  for (i = 1; i<= num; i++) {
+//     fact=fact*i;
 
 
- }
- console.log(fact)
+//  }
+//  console.log(fact)
 
  
 
