@@ -1,0 +1,28 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "text": "kashish",
+      "isedit": false,
+      "iscompleted": false
+    },
+    {
+      "id": 2,
+      "text": "hello someone",
+      "isedit": false,
+      "iscompleted": false
+    },
+    {
+      "text": "raunak",
+      "isEdit": false,
+      "isCompleted": false,
+      "id": 4
+    },
+    {
+      "text": "sneha",
+      "isEdit": false,
+      "isCompleted": false,
+      "id": 5
+    }
+  ]
+}
