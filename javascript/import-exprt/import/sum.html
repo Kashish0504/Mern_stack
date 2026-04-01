@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>import & export</title>
+
+
+    <style>
+        #nav > nav {
+            border:2px solid red;
+
+        }
+    </style>
+</head>
+<body>
+    <header id="'nav"></header>
+    <h1 id="sum"></h1>
+
+
+    
+</body>
+
+<script type="module">
+    import { sumvalue } from '../export/sum.js';
+    import { navbar } from '../export/navbar.js';
+
+    document.addEventListener('DOMConentLoaded',() => {document.querySelector('#nav').innerHTML = Navbar();
+
+    });
+
+    document.querySelector('#sum').innerHTML = `sum of given value :$ {sumvalue (100,5)}`;
+</script>
+</html>
